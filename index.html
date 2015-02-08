@@ -143,7 +143,7 @@ style="border:1px solid #000000;">
               var canvas = document.getElementById('myCanvas');
 
               // Make sure we don't execute when canvas isn't supported
-              if (canvas.getContext && data.length){
+              if (canvas.getContext && (data!=0)){
 
                 // use getContext to use the canvas for drawing
                 var ctx = canvas.getContext('2d');
